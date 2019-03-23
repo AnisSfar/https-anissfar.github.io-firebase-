@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><span>ADA</span> Students feedback</h1>
+    <div class="container">
+      <div class="left-block">
+        <img
+          class="image"
+          src="images/uncle-sam-we-want-you1-kopie_1.png"
+          alt=""
+        />
+        <h2>
+          To give us feedback, because this course is made for you! Because it's
+          all about you!
+        </h2>
+        <p>
+          Fill this form if you:<br /><br />
+          - Find an error in the content or in the quizzes<br />
+          - Have a feedback about instructors or the experience<br />
+          - Have a suggestion on how to make the course better<br />
+        </p>
+      </div>
+      <div class="right-block">
+        <form class="form" id="form">
+          <h3>Email Us</h3>
+          <br /><br />
+          <label class="text">Name</label><br />
+          <input id="text1" class="textbox" type="text" required />
+          <label class="text">Track</label><br />
+          <select id="select" class="track">
+            <option value="AI">AI</option>
+            <option value="WEB">Web</option>
+            <option value="GAMING">Gaming</option> </select
+          ><br />
+          <label class="text">Slide name (or object)</label><br />
+          <input id="text2" class="textbox" type="text" required /><br />
+          <label class="text">Message</label><br />
+          <textarea
+            id="text3"
+            class="textarea"
+            rows="7px"
+            cols="82px"
+            required
+          ></textarea>
+          <input class="submit" type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+  <script src="script.js"></script>
+</html>
